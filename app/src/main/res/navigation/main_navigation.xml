@@ -65,5 +65,14 @@
             android:name="score"
             android:defaultValue="0"
             app:argType="integer" />
+        <argument
+            android:name="word"
+            app:argType="string"
+            android:defaultValue="&quot;Tuna&quot;" />
     </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.android.guesstheword.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
 </navigation>
